@@ -83,6 +83,29 @@
         <img src="./twitter_fly_dribbble.gif">
 
     </footer>
+    <hr>
+
+    <!-- the fourth task -->
+    <!-- Form with validations -->
+    <form action="https://google.com" method="get">
+        <legend>Required inputs</legend>
+        <fieldset>
+            <!-- Email input -->
+            <label for="em">Email</label>
+            <input type="email" id="em" placeholder="Your Email"
+                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required aria-invalid="true">
+            <!-- tel input -->
+            <label for="tele">Telephone number</label>
+            <input type="tel" id="tele" placeholder="add yout Telephone number">
+            <!-- date input -->
+            <label for="dt">choose your date</label>
+            <input type="date" required id="dt">
+        </fieldset>
+        <!-- text area -->
+        <textarea placeholder="write something">
+            hello in the text area
+        </textarea>
+    </form>
 </body>
 
 </html>
