@@ -4,108 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>first task</title>
+    <!-- description tag -->
+    <meta name="description" content="this is our Home page">
+    <!-- canonical link -->
+    <link rel="canonical" href="./index.html">
+    <!-- og tages -->
+    <meta property="og:title" content="amazon">
+    <meta property="og:description" content="this is a website for online sales">
+    <meta property="og:image" content="first Assignment\CAI4_SWD2_S2\OIP (2).webp">
+    <title>Home page</title>
 </head>
+
 
 <body>
     <header>
-        <img src="./OIP.webp">
+        <h1>amazon</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Offers</a></li>
+                <li>HOME</li>
+                <li>About</li>
+                <li>Contact</li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <article>Mercedes-Benz traces its origins to Carl Benz's first internal combustion engine in a car, seen in the
-            Benz Patent-Motorwagen financed by Bertha Benz's dowry[10] and patented in January 1886 and Gottlieb
-            Daimler and their engineer Wilhelm Maybach's conversion of a stagecoach, with the addition of a petrol
-            engine, introduced later that year.</article>
-        <article>Emil Jellinek-Mercedes,an Austrian automobile entrepreneur who worked with DMG, registered the
-            trademark in 1902, naming the 1901 Mercedes 35 hp after his daughter Mercedes Jellinek.</article>
+        <section>
+            <h2>devices</h2>
+
+            <article>
+                <h3>rated users</h3>
+                <div>user one</div>
+                <div>user two</div>
+                <div>user three</div>
+                <aside>
+                    <ul>
+                        <li><a href="#">customers comments</a></li>
+                    </ul>
+                </aside>
+            </article>
+        </section>
+
+        <section>
+            <h2>styles</h2>
+        </section>
+
+        <figure>
+            <img src="./OIP (2).webp">
+        </figure>
+
     </main>
 
     <footer>
-        <address>
-            address:17 shoubra street
-            <br> contact us: 022748339
-            <br> mail us: merrcedswolrd77@gmail.com
-
-        </address>
+        <h2>contact info</h2>
+        <p>follow us over social media websites facebook, whatsApp, twitter</p>
+        <p>amazon@gmail.com</p>
     </footer>
-    <hr>
-    <!-- third task -->
-    <!-- Landing page structure -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero section -->
-    <section>
-        <h1>Amazon</h1>
-        <button>visit</button>
-    </section>
-
-    <!-- Services section -->
-    <section>
-        <section>
-            <h2>Electronic devices</h2>
-            service card 1
-        </section>
-
-        <section>
-            <h2>Furniture</h2>
-            service card 2
-        </section>
-
-        <section>
-            <h2>Brands</h2>
-            service card 3
-        </section>
-    </section>
-    <!-- Testimonials section -->
-    <section>
-        <h2>Complaints</h2>
-        <p>you can send your Complaints over out social media pages twitter or facebook</p>
-    </section>
-
-    <footer>
-        <img src="./OIP (1).webp">
-        <img src="./twitter_fly_dribbble.gif">
-
-    </footer>
-    <hr>
-
-    <!-- the fourth task -->
-    <!-- Form with validations -->
-    <form action="https://google.com" method="get">
-        <legend>Required inputs</legend>
-        <fieldset>
-            <!-- Email input -->
-            <label for="em">Email</label>
-            <input type="email" id="em" placeholder="Your Email"
-                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required aria-invalid="true">
-            <!-- tel input -->
-            <label for="tele">Telephone number</label>
-            <input type="tel" id="tele" placeholder="add yout Telephone number">
-            <!-- date input -->
-            <label for="dt">choose your date</label>
-            <input type="date" required id="dt">
-        </fieldset>
-        <!-- text area -->
-        <textarea placeholder="write something">
-            hello in the text area
-        </textarea>
-    </form>
 </body>
 
 </html>
